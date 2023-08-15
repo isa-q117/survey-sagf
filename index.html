@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+<meta charset="utf-8"/>
+<title>Survey: The Subtle Art of not Giving a F*ck</title>
+<link rel="stylesheet" href="stylesheet.css"><!DOCTYPE html>
+<html lang="en"></html>
+<head>
+<meta charset="utf-8"/>
+<title>Survey: The Subtle Art of not Giving a F*ck</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 id="title">The Subtle Art of Not Giving a F*ck</h1>
+  <p id="description">Please help me with some feedback!</p>
+<form id="survey-form">
+ <fieldset> <label id="name-label">Enter your name: <input id="name" name="name" type="text"required/placeholder="John Doe"></label>
+  <label id="email-label">Enter your email address: <input id="email" name="email" type="email" required placeholder="someone@somewhere.com"/></label>
+  <label id="number-label">Enter your age: <input id="number" name="number" type="number" required min="10" max="120" placeholder="18"/></label>
+  </fieldset>
+  <fieldset>
+  <label>How did you hear about this book?
+    <select id="dropdown" required>
+      <option value="" hidden>(select one)</option>
+      <option value="1">The internet</option>
+      <option value="2">Print media</option>
+      <option value="3">Word-of-mouth</option>
+      <option value="4">The book was a gift</option>
+      </select>
+  </label>
+  <label>What is your progress with the book? <br><input type="radio" name="progress" value="I finished it."/> I finished it.
+  </label>
+  <label> 
+    <input type="radio" name="progress" value="I'm still busy."/> I'm still busy.
+  </label>
+  <label> 
+    <input type="radio" name="progress" value="I gave up."/> I gave up. 
+  </label><br>
+  <label>What did the book make you feel?<br><br>
+        <input type="checkbox" value="5" class="inline"> Inspired<br>
+        <input type="checkbox" value="6" class="inline"> Terrified<br>
+        <input type="checkbox" value="7" class="inline"> Depressed<br>
+        <input type="checkbox" value="8" class="inline"> Hopeful<br>
+      </label>
+      </fieldset>
+      <fieldset>
+<label>Do you have any comments or questions? 
+        <textarea id="comments" name="comments" rows="3" cols="30" placeholder="Mark for the Nobel!"></textarea>
+      </label>
+      </fieldset>
+      <input type="submit" id="submit"/>
+</form>
+</body>
+</html>
